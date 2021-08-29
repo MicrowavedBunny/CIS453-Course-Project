@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import pumpkin from './pumpkin.png'
 class Home extends Component {
     render() {
         return (
@@ -11,8 +11,7 @@ class Home extends Component {
                     more specifically the game development field. I have always dreamt of one day creating something that will make at least one person's life
                     a little bit better and make them smile. Many video games have made a lasting impact on my life and I am to one day create something like
                     that for others.</p>
-
-                <p>Click other pages to see more.</p>
+                <img id={"pumpkin"} src={pumpkin}/>
             </div>
         );
     }

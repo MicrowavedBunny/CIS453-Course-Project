@@ -6,7 +6,6 @@ class Resume extends Component {
         return (
             <div style={{display: "flex"}}>
                 <Document file={resumePDF}>
-                    onLoadError={console.error}
                 <Page pageNumber={1}/>
                 </Document>
                 <Document file={resumePDF}>
